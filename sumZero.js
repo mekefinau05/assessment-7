@@ -3,19 +3,15 @@
 
 function sumZero(arr) {
     for(let i=0; i<arr.length; i++) {
-        if(arr[i] - arr[i + 1] === 0){
-        
-        return true
-
-        } else {
-
-            return false
+        for(let j=0; j<arr.length; j++){
+        if(i !==j && arr[i] + arr[j] ===0 ){
+            return true
+            } 
         }
     }
-    
+    return false
 }  
 
-
-
-
-console.log(sumZero([3,3]))
+console.log(sumZero([2,3,-3,4]))
+// Time Complexity O(n^2)
+// Space Complexity O(1)

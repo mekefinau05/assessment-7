@@ -34,11 +34,11 @@ function getSizedArray(size){
 }
 
 
-const tinyArray = getSizedArray(90);
-const smallArray = getSizedArray(900);
-const mediumArray = getSizedArray(9000);
-const largeArray = getSizedArray(90000);
-const extraLargeArray = getSizedArray(900000);
+const tinyArray = getSizedArray(10);
+const smallArray = getSizedArray(100);
+const mediumArray = getSizedArray(1000);
+const largeArray = getSizedArray(10000);
+const extraLargeArray = getSizedArray(100000);
 
 
 

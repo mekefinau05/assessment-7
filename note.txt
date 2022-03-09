@@ -7,3 +7,7 @@
   XL Arr    |769.98ms 	|2.11ms     | 3.07921 s | 3.49 ms   |6.937194 s |4.50292 ms |12.32912 s |4.9320 ms  |19.3664 s  |6.0823 ms  |27.9019 s  |13.0939 ms |38.06835 s |15.7703 ms |50.02046 s |14.8946 ms |1.05 min   |13.67717 ms|  
 
  
+From what I can understand is the the insert function is the insert function starts 
+faster than the append function but then when they go bigger then the insert function 
+gets slower but the append function goes linear. 
+For sure the append function scale better than the insert function.
